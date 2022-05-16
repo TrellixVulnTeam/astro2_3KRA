@@ -9,11 +9,11 @@
     <title>Contacto</title>
 </head>
 <body class="bodynotindex">
-    <header class="headernotindex"><a href="../index.html"><img src="../Multimedia/LOGO OK.ico" alt="Inicio" height="70"></a></header>
+    <header class="headernotindex"><a href="../index.html"><img src="../Multimedia/LOGO OK.ico" alt="Inicio" height="70" class="img-logo"></a></header>
 
 <br>
 <br>
-<hr>
+<hr class="dividir1">
 <br>
 <br>
 <main>
@@ -22,12 +22,36 @@
     <h2>Dónde nos encontramos</h2>
     <br>
     <br>
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3289.866239863646!2d-58.93510108597736!3d-34.45554318049811!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bc8327e8e41a07%3A0xbe5a2c1b121017c2!2sPergamino%20188%2C%20B1629%20Pilar%20Centro%2C%20Provincia%20de%20Buenos%20Aires%2C%20Argentina!5e0!3m2!1ses-419!2sde!4v1648951422235!5m2!1ses-419!2sde" width="400" height="250" style="border:2;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>    
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3289.866239863646!2d-58.93510108597736!3d-34.45554318049811!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bc8327e8e41a07%3A0xbe5a2c1b121017c2!2sPergamino%20188%2C%20B1629%20Pilar%20Centro%2C%20Provincia%20de%20Buenos%20Aires%2C%20Argentina!5e0!3m2!1ses-419!2sde!4v1648951422235!5m2!1ses-419!2sde" width="500" height="300" style="border:2;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="maps"></iframe>    
     </div>
-<hr>
+<hr class="dividir">
 <div>
-    <h2>También podés enviarnos tu consulta</h2>
-    /*(formulario)
+    <h2 class="h2form">También podés enviarnos tu consulta</h2>
+</div>
+<div class="formulario">
+    <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label">Nombre</label>
+        <input type="Text" class="form-control" id="exampleFormControlexampleFormControlInput1" placeholder="Name">
+    </div>
+    <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label">Apellido (Opcional)</label>
+        <input type="Text" class="form-control" id="exampleFormControlexampleFormControlInput1" placeholder="Last Name">
+    </div>
+    <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label">Fecha de Nacimiento</label>
+        <input type="date" class="form-control" id="exampleFormControlexampleFormControlInput1" placeholder="DD/MM/AAAA">
+    </div>
+    <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label">Email address</label>
+        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+    </div>
+    <div class="mb-3">
+        <label for="exampleFormControlTextarea1" class="form-label">Contanos un poco más..</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+    </div>
+
+    <button type="button" class="btn btn-secondary" style="border: 2px solid #c4397c;">Enviar</button>
+
 </div>
 </center>
 </main>
@@ -35,21 +59,24 @@
 <br>
 <br>
 <br>
-<hr>
-    <footer>
-    <center>
-        <address>
-            Buenos Aires- Argentina/Astroplutonita-2022
-        </address>
+        <div class="container">
+            <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+            <div class="col-md-4 d-flex align-items-center">
+                <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+                <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"/></svg>
+                </a>
+                <span class="text-muted">&copy; 2022 Astroplutonita, Inc</span>
+            </div>
         
-    </center>
-<br>
-    <ul class="ulfooter">
-        <li> Envía tus comentarios</li>
-        <li> Donaciones</li>
-    </ul>   
+        <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+            <li class="ms-3"><a class="text-muted" href="mailto:astroplutonia@gmail.com"><svg class="bi" width="24" height="24"><img src="../Multimedia/GMAIL_icon-icons.com_65540.png" width="30px"></svg></a></li>
+            <li class="ms-3"><a class="text-muted" href="tel:+541162433000"><svg class="bi" width="24" height="24"><img src="../Multimedia/whatsapp_icon-icons.com_65542.png" width="30px"></svg></a></li>
+        </ul>
+            
+            </footer>
+            </div>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+            <script src="./JS/index.js"></script>
 
-</footer>
-
-</body class="bodynotindex">
+</body>
 </html>

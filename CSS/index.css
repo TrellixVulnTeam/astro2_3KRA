@@ -8,7 +8,7 @@ body{
 nav{
     background-color:#A82D69;
     direction:ltr;
-    border-top: 16px solid #;
+    border-top: 20px solid #;
     margin: 65px auto;
     margin-right: 3px;
 }
@@ -33,13 +33,20 @@ nav a:hover{
     clear: right;
     border-radius: 60px;
     padding: 0 auto;
-    margin: 0 auto;
+    margin: 1% auto;
     margin-right: 15px;
+    width: 100px;
+    height: 100px;
 }
 
 .h1{
     margin-top:55px;
     margin-left: 10px;
+}
+
+.dropdown-item:hover{
+    background-color:#73F574;
+    color:#A82D69
 }
 
 
@@ -49,6 +56,42 @@ nav a:hover{
 }
 
 
+/* CONTACTO*/
+
+.mb-3{
+    width:30%;
+
+}
+
+button{
+    float:inline-end;
+    margin-left: 15%;
+    margin-top: 3%;
+}
+
+.dividir{
+    margin: 6%;
+}
+
+.dividir1{
+    margin-top: 6%;
+    margin-left:6%;
+    margin-right:6%;
+
+}
+
+.h2form{
+    margin:2% auto;
+}
+
+.form-control{
+    background-color: #e6e9ec;
+    border: 2px solid #C4397C;
+}
+
+.maps{
+    border: 3px solid #C4397C;
+}
 /* Color Theme Swatches in Hex */
 .My-Color-Theme-1-hex { color: #3EA83F; }
 .My-Color-Theme-2-hex { color: #91FF92; }
