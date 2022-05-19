@@ -21,7 +21,8 @@ nav a:hover{
 }
 
 .bodynotindex{
-    background-color: linear-gradient(25deg,#E7FAD0, transparent);
+    background: linear-gradient(25deg,#E7FAD0, transparent);
+    background-image: no-repeat;
 }
 
 .logo{
