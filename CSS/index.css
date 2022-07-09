@@ -15,7 +15,7 @@ nav{
 
 
 nav a:hover{
-    background-color: #73f574;
+    background-color: #d397b4;
     color: #E7FAD0;
     border-radius: 18px;
 }
@@ -34,7 +34,7 @@ nav a:hover{
     clear: right;
     border-radius: 60px;
     padding: 0 auto;
-    margin: 1% auto;
+    margin: 1%;
     margin-right: 15px;
     width: 100px;
     height: 100px;
@@ -55,6 +55,143 @@ nav a:hover{
 .bodynotindex{
     background-color:linear-gradient(to bottom left,#E7FAD0, #91ff92, transparent);
 }
+/* astrologia a diario*/
+
+.h1astroadiario{
+    text-align: center;
+    font-size: 42px;
+    text-decoration: underline;
+    margin-top: 10px;
+}
+.headerastroadiario{
+    margin: 10px;
+}
+
+.h2astroadiario{
+    text-align: right;
+    font-size: 15px;
+    margin-top: 55px;
+    margin-bottom:50px;
+    margin-left: 25px;
+    text-decoration: underline;
+    margin: 2% 80%;
+}
+
+.articuloastroadiario{
+    justify-content: center;
+    margin-bottom: 90px;
+}
+
+.imgastroadiario{
+    display: block;
+    margin: auto;
+    justify-content: center;
+}
+
+.pastroadiario{
+    text-align: justify;
+    margin-left:90px;
+    margin-right:90px;
+    margin-top: 55px;
+}
+
+.imgastro1{
+    align-content: center;
+    margin-top: 11%;
+}
+
+
+
+/* parte de productos y servicios */
+
+.foto1productos{
+    width: 500px;
+    align-content: center;
+    border:double;
+    border-color: #8F2173;
+    border-radius:10px;
+    border-style: solid;
+    margin-bottom:4%;
+    
+}
+
+.foto2productos{
+    width: 435px;
+    justify-content: center;
+    border:double;
+    border-color: #8F2173;
+    border-radius:10px;
+    border-style: solid;
+    margin-bottom:4%;
+}
+
+figure{
+    justify-content: center;
+}
+.mainproductos{
+    padding: 20px;
+    display: flex;
+    justify-content:space-around;
+    
+}
+
+.bodyproductos{
+    margin-left: auto;
+    padding: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: bottom;
+}
+
+.parrafoproductos{
+    text-align: justify;
+    font-size: 18px;
+    padding: 20px;
+
+}
+
+
+.headerproductos{
+    margin-bottom: 25px;
+}
+
+.h1productos{
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 45px;
+    margin-bottom: 105px;
+    margin-top: 55px;
+}
+
+.tituloproducto{
+    font-size: 25px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.hrfooterproductos{
+    margin-bottom: 35px;
+    margin-top: 105px;
+}
+
+.paramasinfo{
+    font-size: 25px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+}
+
+.divproductos{
+    padding: auto;
+    margin: auto;
+}
+
+.h3productos{
+    padding: 10px;
+    text-align: center;
+}
+
+
 
 
 /* CONTACTO*/
@@ -92,6 +229,12 @@ button{
 
 .maps{
     border: 3px solid #C4397C;
+}
+
+.paramasinfo:hover{
+    background-color: #f1b5d2;
+    border-radius: 30%;
+    padding: 20px 20px;
 }
 /* Color Theme Swatches in Hex */
 .My-Color-Theme-1-hex { color: #3EA83F; }
