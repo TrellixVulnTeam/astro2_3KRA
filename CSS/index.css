@@ -2,6 +2,18 @@
 
 }
 
+#txt{
+
+    font-size: medium;
+    font-style: italic bold;
+    margin-right: 5% auto;
+    
+}
+
+.fechahora{
+    direction: rtl;
+}
+
 body{
     background-color:#E7FAD0;
 }
@@ -21,7 +33,7 @@ nav a:hover{
 }
 
 .bodynotindex{
-    background: linear-gradient(5deg,#E7FAD0, transparent);
+    background: linear-gradient(1deg,#E7FAD0, transparent);
     background-image: no-repeat;
 }
 
@@ -34,7 +46,7 @@ nav a:hover{
     clear: right;
     border-radius: 60px;
     padding: 0 auto;
-    margin: 1%;
+    margin: 1% 3%;
     margin-right: 15px;
     width: 100px;
     height: 100px;
@@ -56,8 +68,18 @@ nav a:hover{
     background-color:linear-gradient(to bottom left,#E7FAD0, #91ff92, transparent);
     background-repeat: no-repeat;
 }
+
+.imgastroadiario{
+    direction: rtl;
+    width: 150px;
+    margin-top: 15%;
+}
 /* astrologia a diario*/
 
+.traduccion{
+    
+    
+}
 .h1astroadiario{
     text-align: center;
     font-size: 42px;
@@ -99,6 +121,51 @@ nav a:hover{
 .imgastro1{
     align-content: center;
     margin-top: 11%;
+}
+
+/* parte de quienes somos */
+
+.headerquienessomos{
+    margin: 7% 5%;
+}
+.mainquienessomos{
+    display: flex;
+    justify-content: flex-end;
+}
+.h1quienessomos{
+    font-size:37px;
+    margin-left:70px;
+
+}
+
+.articlequienessomos{
+    margin: 65px;
+    margin-left: auto;
+    margin-top: 60px;
+}
+
+.asidequienessomos{
+    padding: 4px;
+    margin-top: 50px
+}
+
+.tituloquienessomos{
+    margin-left: 60px;
+    margin-top: auto;
+}
+
+.pquienessomos{
+    text-align: justify;
+    margin-right: 5px;
+    padding: 20px;
+}
+
+.ulfooterquienessomos li{
+    text-decoration: none;
+    list-style-type: none;
+    text-align: center;
+    line-height: 50px;
+    font-size: 17px;
 }
 
 
