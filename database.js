@@ -27,11 +27,11 @@ const conectar = (
     app.use(express.static(path.join(__dirname,"./pages/contacto.html")));
     
     app.use(express.urlencoded({extended:false}));
-    app.get('./pages/contacto.html', (req, res) =>{
+    app.get('/', (req, res) =>{
 
         console.log(__dirname);
     
-        res.sendFile('/astro2/index.html', 
+        res.sendFile('./public/index.html', 
         {root: __dirname + './pages/contacto.html'});
         
     });
@@ -68,11 +68,11 @@ const conectar = (
 
         //conexion a la base de datos "astro"
         let data = {
-            contacto_nombre:nombre,
-            contacto_apellido:apellido,
-            contacto_fechanac:fechanac,
-            contacto_email:email,
-            contacto_motivo:motivo
+            nombre:nombre,
+            apellido:apellido,
+            fechanac:fechanac,
+            email:email,
+            motivo:motivo
         };
         let sql= "INSERT INTO UTN SET ?"
 
