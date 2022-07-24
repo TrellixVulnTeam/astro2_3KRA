@@ -54,14 +54,3 @@ let anio = fecha1.getFullYear();
 
 fecha.innerText = diaMes+"/"+mes+"/"+anio;
 
-let quienesomos = document.getElementById('quienesomos');
-
-//textos y traducciones
-let espanol= 'hola como estas';
-let frances= 'oui,oui,oui';
-let ingles ='hi, how are you?';
-
-//contenido al p
-quienesomos.innerText = frances;
-quienesomos.innerText = espanol;
-quienesomos.innerText = ingles;

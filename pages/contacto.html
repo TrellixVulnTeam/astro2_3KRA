@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="../CSS/index.css">
+    <script src="../database.js"></script>
     <title>Contacto</title>
 </head>
 <body class="bodynotindex">
@@ -28,6 +29,7 @@
 <div>
     <h2 class="h2form">También podés enviarnos tu consulta</h2>
 </div>
+<form action="./contacto.html" method="post" enctype="multipart/form-data">
 <div class="formulario">
     <div class="mb-3">
         <label for="exampleFormControlInput1" class="form-label">Nombre</label>
@@ -39,18 +41,21 @@
     </div>
     <div class="mb-3">
         <label for="exampleFormControlInput1" class="form-label">Fecha de Nacimiento</label>
-        <input type="date" class="form-control" id="exampleFormControlexampleFormControlInput1" placeholder="DD/MM/AAAA">
+        <input type="date" class="form-control" id="exampleFormControlexampleFormControlInput1" placeholder="YYYY/MM/DD">
     </div>
     <div class="mb-3">
-        <label for="exampleFormControlInput1" class="form-label">Email address</label>
+        <label for="exampleFormControlInput1" class="form-label">Correo Electrónico</label>
         <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
     </div>
     <div class="mb-3">
         <label for="exampleFormControlTextarea1" class="form-label">Contanos un poco más..</label>
         <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
     </div>
+    <div>
+        <button type="submit" value="Enviar Datos" class="btn btn-secondary" onclick="alert('Estás seguro de mandar el formulario?')" style="border: 2px solid #c4397c;">Enviar</button>
+    </div>
+</form>
 
-    <button type="button" class="btn btn-secondary" style="border: 2px solid #c4397c;">Enviar</button>
 
 </div>
 </center>
@@ -76,7 +81,7 @@
             </footer>
             </div>
             <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-            <script src="./JS/index.js"></script>
+
 
 </body>
 </html>
